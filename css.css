@@ -1,0 +1,378 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(9, 140px);
+    grid-template-rows: repeat(11, 80px);
+    gap: 2px;
+}
+
+.kampas {
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+.stage_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 1 / 2 / 1 / 3;
+}
+
+.stage_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 1 / 3 / 1 / 4;
+}
+
+.stage_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 1 / 4 / 1 / 5;
+}
+
+.stage_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 1 / 5 / 1 / 6;
+}
+
+.stage_5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 1 / 6 / 1 / 7;
+}
+
+.stage_6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 1 / 7 / 1 / 8;
+}
+
+.stage_7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 1 / 8 / 1 / 9;
+}
+
+.pirmas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 2 / 1 / 2 / 1;
+}
+
+.antras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 3 / 1 / 3 / 1;
+}
+
+.trecias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 4 / 1 / 4 / 1;
+}
+
+.ketvirtas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: coral;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 5 / 1 / 5 / 1;
+}
+
+.penktas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 6 / 1 / 6 / 1;
+}
+
+.sestas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 7 / 1 / 7 / 1;
+}
+
+.septintas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: coral;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 8 / 1 / 8 / 1;
+}
+
+.astuntas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 9 / 1 / 9 / 1;
+}
+
+.devintas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 10 / 1 / 10 / 1;
+}
+
+.desimtas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 11 / 1 / 11 / 1;
+}
+
+.talk_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 2 / 2 / 5 / 4;
+}
+
+.talk_1_title {
+    color: blue;
+}
+
+.pirmasbreak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 5 / 2 / 5 / 4;
+}
+
+.talk_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 6 / 2 / 8 / 5;
+}
+
+.talk_2_title {
+    color: blue;
+}
+
+.talk_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 2 / 4 / 6 / 4;
+}
+
+.talk_4_title {
+    color: darkgreen;
+}
+
+.talk_5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 2 / 5 / 2 / 7;
+}
+
+.talk_5_title {
+    color: red;
+}
+
+.antrasbreak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 3 / 5 / 3 / 7;
+}
+
+.talk_6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 4 / 5 / 8 / 7;
+}
+
+.talk_6_title {
+    color: red;
+}
+
+.treciasbreak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 8 / 2 / 9 / 9;
+}
+
+.talk_7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 9 / 2 / 12 / 4;
+}
+
+.talk_7_title {
+    color: blue;
+}
+
+.talk_8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 10 / 4 / 12 / 7;
+}
+
+.talk_8_title {
+    color: darkgreen;
+}
+
+.talk_9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightyellow;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 2 / 7 / 8 / 9;
+}
+
+.talk_9_title {
+    color: orange;
+}
+
+.talk_10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightyellow;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: 9 / 7 / 12 / 9;
+}
+
+.talk_10_title {
+    color: orange;
+}
